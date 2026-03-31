@@ -3,7 +3,7 @@ import React from "react";
 const Banar = () => {
   return (
     <div className="">
-      <div className=" flex justify-between gap-10 items-center max-w-[1600px] mx-auto px-[200px] pt-20 ">
+      <div className=" flex justify-between gap-10 items-center max-w-[1600px] mx-auto px-[200px] pt-20">
         <div>
           <div className="space-y-6 max-w-xl">
             <button className="bg-[#E1E7FF] px-3 py-1 rounded-full">
@@ -17,10 +17,12 @@ const Banar = () => {
               Digital Workflow
             </h3>
 
-            <p className="text-[#627382]">
+            <p className="text-[#627382] text-[14px]">
               Access premium AI tools, design assets, templates, and
-              productivity <br/> software—all in one place. Start creating faster
-              today.<br/>Explore Products.
+              productivity <br /> software—all in one place. Start creating
+              faster today.
+              <br />
+              Explore Products.
             </p>
 
             {/* BUTTONS */}

@@ -2,8 +2,9 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="max-w-[1600px] mx-auto px-[200px] ">
-      <div className="flex gap-50 justify-center items-center">
+    <div className="max-w-[1600px] mx-auto px-[200px] justify-center ">
+      
+      <div className="flex gap-50 justify-center items-center fixed top-0 left-0 w-full z-50 bg-white shadow-md">
         <div className="">
           <a className="text-4xl font-bold bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent">
             DigiTools
