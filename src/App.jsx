@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar carts={carts}/>
       <Banar />
       <div className="pt-20">
         <div className=" flex flex-col justify-center items-center space-y-4">
